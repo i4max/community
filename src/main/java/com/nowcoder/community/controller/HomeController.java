@@ -23,7 +23,7 @@ import java.util.Map;
  * @love
  */
 @Controller
-public class DiscussPostController {
+public class HomeController {
     @Resource
     DiscussPostService discussPostService;
 

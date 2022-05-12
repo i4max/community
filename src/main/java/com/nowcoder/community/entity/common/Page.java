@@ -23,7 +23,7 @@ public class Page {
         if (current < 1) {
             this.current = 1;
         } else this.current = Math.min(current, (rows % limit == 0 ? rows / limit : rows / limit + 1));
-        System.out.println("setCurrent方法被执行了......");
+//        System.out.println("setCurrent方法被执行了......");
     }
 
     public int getLimit() {
